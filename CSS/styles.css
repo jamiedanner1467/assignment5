@@ -1,0 +1,72 @@
+body{
+    background-color: #cdfee6;
+}
+h1 {
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: darkblue;
+    font-family: serif;
+    text-align: center;
+    }
+.script {
+    font-family: cursive;
+    color:darkblue;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+#image {
+    box-shadow: 5px 5px #777777;
+    height: 275px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.logo {
+    height:50px;
+}
+header nav ul li {
+    padding-right: 10;
+}
+div {
+    display: flex;
+}
+img {
+    align-content: center;
+}
+a:hover {
+    color: azure;
+}
+form {
+    background: white;
+    border: solid gray 6px;
+    padding: 15px;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    justify-content: center;
+}
+main form div label {
+    margin-right: 20px;
+}
+.radio-button {
+    margin-right: 20px;
+}
