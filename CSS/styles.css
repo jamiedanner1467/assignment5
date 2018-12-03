@@ -70,3 +70,13 @@ main form div label {
 .radio-button {
     margin-right: 20px;
 }
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer,
+    form,
+    div,
+    p {
+        flex-direction: column;
+        background-color: azure;
+    }    
